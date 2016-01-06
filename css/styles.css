@@ -12,3 +12,29 @@ img.picture {
   width:400px;
   height:200px;
 }
+
+.picture-wrap {
+  text-align: center;
+}
+
+.special {
+  font-style: italic;
+  color: orange;
+}
+
+.giant {
+  font-weight: bold;
+}
+
+.flashy:hover {
+  color:red;
+  transition-duration:2s;
+
+}
+
+.flashy {
+  transition-duration:2s;
+}
+a:hover {
+  color:#000;
+}

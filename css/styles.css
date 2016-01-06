@@ -1,0 +1,14 @@
+p.discount {
+  font-style: italic;
+}
+
+p.time{
+  color: red;
+  font-weight: 700;
+}
+
+img.picture {
+  margin:0 auto;
+  width:400px;
+  height:200px;
+}

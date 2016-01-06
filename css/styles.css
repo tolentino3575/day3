@@ -157,3 +157,17 @@ a:hover {
   width: 33.3333%;
 
 }
+
+.wrap {
+margin: 0 auto;
+max-width:1700px;
+
+}
+@media screen and (max-width:768px) {
+  .sidebar-left {display:none;}
+  .sidebar-right {display:none;}
+}
+
+@media screen and (min-width:1024px) {
+
+}

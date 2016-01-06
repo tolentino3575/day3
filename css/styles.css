@@ -39,7 +39,21 @@ header {
   float:left;
   height:1500px;
   margin-right:10px;
+  background-color: #f2f8f7;
 }
+
+.menu p {
+  color: red;
+}
+
+.sidebar-left a {
+  color:#000;
+}
+
+.sidebar-left a:hover {
+  color:blue;
+}
+
 
 header:hover {
   transition-duration:2s;
@@ -97,14 +111,6 @@ img.picture {
   margin-right: 5px;
 }
 
-.sub-menu {
-  display:none;
-}
-
-.sub-menu:hover {
-  display:visible;
-
-}
 .search {
   border: 2px solid black;
   margin-right: 5px;
@@ -133,9 +139,10 @@ img.picture {
 }
 
 .flashy:hover {
-  color:red;
-  transition-duration:2s;
-
+  color: blue;
+  transition-duration:5s;
+  font-size: 25px;
+  font-family: sans-serif;
 }
 
 .flashy {
